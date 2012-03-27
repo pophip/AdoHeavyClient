@@ -1,0 +1,24 @@
+Requirements:
+- As lightweight as possible (performance, deployment, dependencies)
+- Usability
+	- simple
+	- non-intrusive
+- Upload concontent:
+	- meta-data recognition
+		- audio
+		- video
+		- image
+		- archives : rar, zip, 7z, tar...
+	- content encryption
+		- encryption method
+		- key/password management
+		- user permissions
+	- content synchroniwing
+- Synchronization data
+	- meta-data
+		- local
+		- distant
+	- requests
+		- upload request
+		- download available notification
+
