@@ -1,0 +1,58 @@
+Purpose this document:
+----------------------
+This document is a specification draft for the Qdenosine Heavy client.
+"TODO" items throughout this document indicates tasks to achieve, problems to solve and questions to answer.
+
+===============================================================================
+==> TODO: Read all the TODO items in the rest of this document!!
+===============================================================================
+
+Definitions:
+------------
+Just to be sure about the vocabulary.
+Adenosine: the name of this project. Short name is Ado. Reference to Adenosine might mean "the server", or "the server and the rest of the system/project"
+Ado: see Adenosine.
+AdoHeavyClient: A small software installed on the users computer that enables smooth and automated interactions with Ado. The word "Heavy" is to be opposed to "light" web-based interfaces. (wich are light because don't require an installation).
+HC or AHC: short for AdoHeavyClient.
+content: date that will be shared through Adenosine. It is the core trade of Adenosine.
+published content: content who's metadata is available to Ado, and which is available from at least one of the users.
+available content: content directly available from Ado.
+Use case: A use case is, in a broad meaning, a unit of interaction of the user with the system. A very general/high level use case can contain more specific/technical use cases. Use case ~= scenario.
+uc#: Use case number "#".
+
+===============================================================================
+==> TODO: Improve and complete this document, as it is the base for a good specification of AdoHeavyClient. All use cases need to be defined and precised so that implementation can start. No detail is useless, and implementation/technical tips are welcome.
+===============================================================================
+
+Use cases:
+----------
+uc0: Authentication
+	TODO: chose an authentication method
+		certificates ?
+		public key ?
+		other ?
+uc1: Browse
+	Browse the published content
+	Search/filter through the published content
+uc2: Publish content: tell Ado that you have interesting content. This could be automatic, with the use of watch folders, defined by the user.
+	TODO: How to read metadata from all types of files?
+		Which files should we read metadata from? Exactly what fields of metadata should be determined for each type of file? Provide a method to extract metadata.
+	TODO: How to synchronize metadata with server?
+		What kind of data to exchange?
+		Over which protocol?
+uc3: Upload content
+	FTP protocol, embedded in AHC.
+	TODO: Manage storage space on server.
+		What if there is no space?
+			Automatic removal of content (-> on what criterions?)
+			Users can prioritize content?
+			Users can delete their own unused files?
+uc4: Download content.
+	FTP protocol, embedded in AHC.
+uc5: Request content
+	TODO: Write specification for the requests:
+		Content of the request.
+		Workflow of requests (user actions, Ado (re)actions, notifications to users,...)
+	TODO: How to send/receive requests, requests synchronization.
+uc6: Reply to requests
+	TODO: same as uc6
