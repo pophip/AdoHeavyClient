@@ -1,0 +1,10 @@
+Use Test-Driven Development
+	- Qt Unit testing framework for the GUI testing
+	- Google C++ Testing Framework (Google Testm in short) can help us with that
+Re-use existing libraries
+	- Qt for the GUI part, and more.
+	- Boost (might not be required with Qt)
+	- libcurl : uploads, content transfers
+	- libopenssl : encryption
+	- requests : Secure connection to db? Protocol Buffers + server-side
+	  client? + https webservices?
