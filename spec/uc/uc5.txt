@@ -1,0 +1,40 @@
+UC5: Request content
+
+
+
+Hypothesis:
+
+	→	The user has already opened the client
+	→	He is authenticated
+	→	He has performed a search OR browsed to a published content (not
+		available)
+
+
+
+Scenario:
+
+	Here is what his screen would look like:
+
+
+	<meta1>		<meta2>		<meta3>		actions
+	=================================================
+	value11		value12		value13		download
+	value21		value22		value23		request
+	THIS IS		THE ONE		I WANT		request
+	value41		value42		value43		download
+
+
+	/The available content can be downloaded directly./
+	/The published content can be requested./
+
+
+	The user clicks on "request".
+
+
+	The server:
+
+	→	Stores the ID of the content in the list of the user's download requests
+	→	Stores the ID of the content in the list of the user who has
+		the content in his upload requests
+	→	Sends an e-mail to the user who has the content to ask him to
+		upload it
