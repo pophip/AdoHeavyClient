@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="sketch.svg"
+   inkscape:export-filename="/home/pierre/dev/AdoHeavyClient/spec/graphical_interface/sketch.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2987" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="494"
+     inkscape:cy="356.96854"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1625"
+     inkscape:window-height="1030"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.92055988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2993"
+       width="906.42578"
+       height="735.48492"
+       x="118.57425"
+       y="1" />
+    <rect
+       style="fill:#666666"
+       id="rect2995"
+       width="1025"
+       height="28"
+       x="1"
+       y="1" />
+    <rect
+       style="fill:#c83737"
+       id="rect3009"
+       width="1025"
+       height="680"
+       x="-1"
+       y="28" />
+    <rect
+       style="fill:#550000"
+       id="rect3397"
+       width="903"
+       height="454"
+       x="122"
+       y="247" />
+    <rect
+       style="fill:#373748"
+       id="rect3297-0-1"
+       width="167"
+       height="34"
+       x="628.5"
+       y="34" />
+    <rect
+       style="fill:#373748"
+       id="rect3297-0-4"
+       width="167"
+       height="34"
+       x="457.5"
+       y="35" />
+    <rect
+       style="fill:#373748"
+       id="rect3297-0"
+       width="167"
+       height="34"
+       x="287.5"
+       y="34" />
+    <rect
+       style="fill:#808080"
+       id="rect2997"
+       width="902"
+       height="183"
+       x="122"
+       y="64" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="461"
+       y="21"
+       id="text2999"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3001"
+         x="461"
+         y="21"
+         style="font-size:24px">TitleBar</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="149"
+       y="109"
+       id="text3003"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="149"
+         y="109"
+         id="tspan3193">Browsing form:</tspan><tspan
+         sodipodi:role="line"
+         x="149"
+         y="134"
+         id="tspan3015">- contains search criteria and filters</tspan><tspan
+         sodipodi:role="line"
+         x="149"
+         y="159"
+         id="tspan3201">    (not only about metadata, but also status (% uploaded, speed)</tspan><tspan
+         sodipodi:role="line"
+         x="149"
+         y="184"
+         id="tspan3007">- can be hidden/expanded</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffaaaa;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="199"
+       y="282"
+       id="text3011"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3013"
+         x="199"
+         y="282">Browsing results</tspan></text>
+    <rect
+       style="fill:#88aa00"
+       id="rect3017"
+       width="1027"
+       height="32"
+       x="1"
+       y="705" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="126"
+       y="728"
+       id="text3019"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3021"
+         x="126"
+         y="728">status bar: displays pending background operation and network statistics</tspan></text>
+    <rect
+       style="fill:#e9afdd"
+       id="rect3023"
+       width="889"
+       height="95"
+       x="136"
+       y="293" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="151"
+       y="322"
+       id="text3025"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3027"
+         x="151"
+         y="322">1 record:</tspan><tspan
+         sodipodi:role="line"
+         x="151"
+         y="347"
+         id="tspan3035">- display file meta data and availability status</tspan><tspan
+         sodipodi:role="line"
+         x="151"
+         y="372"
+         id="tspan3029">- contains a few action buttons</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="553"
+       y="265"
+       id="text3031"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3033"
+         x="553"
+         y="265">list of records:</tspan><tspan
+         sodipodi:role="line"
+         x="553"
+         y="290"
+         id="tspan3037">- records are selectable for batch manipulation</tspan></text>
+    <rect
+       style="fill:#80b3ff"
+       id="rect3023-4"
+       width="889"
+       height="95"
+       x="135.5"
+       y="389.5" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="152.5"
+       y="418.5"
+       id="text3025-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3027-3"
+         x="152.5"
+         y="418.5">1 record:</tspan><tspan
+         sodipodi:role="line"
+         x="152.5"
+         y="443.5"
+         id="tspan3035-9">- display file meta data and availability status</tspan><tspan
+         sodipodi:role="line"
+         x="152.5"
+         y="468.5"
+         id="tspan3029-6">- contains a few action buttons</tspan></text>
+    <rect
+       style="fill:#dbdee3"
+       id="rect3023-49"
+       width="890"
+       height="99"
+       x="135.5"
+       y="483.5" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="149.5"
+       y="516.5"
+       id="text3025-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3027-7"
+         x="149.5"
+         y="516.5">1 record:</tspan><tspan
+         sodipodi:role="line"
+         x="149.5"
+         y="541.5"
+         id="tspan3035-1">- display file meta data and availability status</tspan><tspan
+         sodipodi:role="line"
+         x="149.5"
+         y="566.5"
+         id="tspan3029-9">- contains a few action buttons</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="278"
+       y="86"
+       id="text3197"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3199"
+         x="278"
+         y="86">&gt;Main panel: multiple tabs can be opened/saved. Predefined panels exist.</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3203"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3205"><rect
+           id="rect3207"
+           width="1245"
+           height="584"
+           x="-50"
+           y="77" /></flowRegion><flowPara
+         id="flowPara3209"></flowPara></flowRoot>    <rect
+       style="fill:#c83737"
+       id="rect3211"
+       width="119"
+       height="711"
+       x="0"
+       y="27" />
+    <text
+       xml:space="preserve"
+       style="font-size:21.50667953px;font-style:normal;font-weight:normal;line-height:0%;letter-spacing:-6.00171471px;word-spacing:0px;writing-mode:tb-rl;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="38.980858"
+       y="481.02094"
+       id="text3213"
+       sodipodi:linespacing="0%"
+       transform="scale(1.48791,0.67208368)"><tspan
+         sodipodi:role="line"
+         id="tspan3215"
+         x="286.83395"
+         y="233.16786"> shortcuts</tspan><tspan
+         sodipodi:role="line"
+         x="286.83395"
+         y="233.16786"
+         id="tspan3217" /></text>
+    <rect
+       style="fill:#ff8080"
+       id="rect3219"
+       width="117"
+       height="89"
+       x="0"
+       y="28" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="1"
+       y="61"
+       id="text3221"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3223"
+         x="1"
+         y="61">login &amp;</tspan><tspan
+         sodipodi:role="line"
+         x="1"
+         y="86"
+         id="tspan3225">configuration</tspan></text>
+    <rect
+       style="fill:#5555ff"
+       id="rect3227"
+       width="229"
+       height="44"
+       x="767"
+       y="320" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="815"
+       y="356"
+       id="text3229"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3231"
+         x="815"
+         y="356">upload</tspan></text>
+    <rect
+       style="fill:#008080"
+       id="rect3233"
+       width="245"
+       height="43"
+       x="764"
+       y="415" />
+    <rect
+       style="fill:#00ffff"
+       id="rect3239"
+       width="167"
+       height="44"
+       x="764"
+       y="415" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="769"
+       y="449"
+       id="text3235"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3237"
+         x="769"
+         y="449">uploading...</tspan></text>
+    <rect
+       style="fill:#ccff00"
+       id="rect3241"
+       width="118"
+       height="84"
+       x="-1"
+       y="116" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="12"
+       y="157"
+       id="text3243"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3245"
+         x="12"
+         y="157">requests</tspan></text>
+    <rect
+       style="fill:#916f6f"
+       id="rect3247"
+       width="119"
+       height="89"
+       x="-1"
+       y="198" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-3.693458e-09"
+       y="233"
+       id="text3249"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3251"
+         x="-3.693458e-09"
+         y="233">publishing</tspan><tspan
+         sodipodi:role="line"
+         x="-3.693458e-09"
+         y="258"
+         id="tspan3259">local folders</tspan></text>
+    <rect
+       style="fill:#ff7f2a"
+       id="rect3253"
+       width="248"
+       height="48"
+       x="762"
+       y="517" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="802"
+       y="550"
+       id="text3255"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3257"
+         x="802"
+         y="550">request</tspan></text>
+    <rect
+       style="fill:#ac9d93"
+       id="rect3261"
+       width="118"
+       height="84"
+       x="-1"
+       y="653" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="14"
+       y="673"
+       id="text3263"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3265"
+         x="14"
+         y="673">console</tspan><tspan
+         sodipodi:role="line"
+         x="14"
+         y="698"
+         id="tspan3267">&amp; logs</tspan></text>
+    <rect
+       style="fill:#3737c8"
+       id="rect3269"
+       width="118"
+       height="98"
+       x="-1"
+       y="555"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="20"
+       y="588"
+       id="text3271"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3273"
+         x="20"
+         y="588">activity</tspan><tspan
+         sodipodi:role="line"
+         x="20"
+         y="613"
+         id="tspan3275">queue</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-5.2763482e-10"
+       y="326"
+       id="text3277"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3279"
+         x="-5.2763482e-10"
+         y="326">Browse</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3281"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#11002b;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><flowRegion
+         id="flowRegion3283"><rect
+           id="rect3285"
+           width="97"
+           height="67"
+           x="-63"
+           y="361"
+           style="fill:#11002b" /></flowRegion><flowPara
+         id="flowPara3287">Sqved sersfsdf</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="3"
+       y="478"
+       id="text3289"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3291"
+         x="3"
+         y="478"
+         style="font-size:20px">Saved</tspan><tspan
+         sodipodi:role="line"
+         x="3"
+         y="503"
+         id="tspan3295"
+         style="font-size:20px">searches</tspan><tspan
+         sodipodi:role="line"
+         x="3"
+         y="528"
+         id="tspan3293"
+         style="font-size:20px">as shortcuts</tspan></text>
+    <rect
+       style="fill:#6f6f91"
+       id="rect3297"
+       width="164"
+       height="34"
+       x="122"
+       y="34" />
+    <text
+       xml:space="preserve"
+       style="font-size:37.76037979px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="139.01978"
+       y="61.360615"
+       id="text3342"
+       sodipodi:linespacing="125%"
+       transform="scale(0.94400948,1.0593114)"><tspan
+         sodipodi:role="line"
+         id="tspan3344"
+         x="139.01978"
+         y="61.360615">search 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="291.14648"
+       y="63.912109"
+       id="text3342-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3344-3"
+         x="291.14648"
+         y="63.912109">other tab</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="462.99219"
+       y="62.929688"
+       id="text3342-6-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3344-3-0"
+         x="462.99219"
+         y="62.929688">other tab</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="633.99219"
+       y="63.929688"
+       id="text3342-6-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3344-3-4"
+         x="633.99219"
+         y="63.929688">other tab</tspan></text>
+    <rect
+       style="fill:#ffaaaa"
+       id="rect3399"
+       width="56"
+       height="36"
+       x="138"
+       y="252" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="144"
+       y="281"
+       id="text3401"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3403"
+         x="144"
+         y="281">&gt;</tspan></text>
+  </g>
+</svg>
