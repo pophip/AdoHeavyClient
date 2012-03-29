@@ -4,64 +4,64 @@ UC5: Reply to a request
 
 Hypothesis:
 
-	→	The user has been requested to upload some content by another
-		user
+    →    The user has been requested to upload some content by another
+         user
 
 
 
 Scenario:
 
-	The user:
-	→	sees the e-mail asking him to upload "ContentABCXYZ" on Ado
-	→	opens AHC
-	→	authenticates himself
+    The user:
+    →    sees the e-mail asking him to upload "ContentABCXYZ" on Ado
+    →    opens AHC
+    →    authenticates himself
 
-	AHC, after succesful authentication:
-	→	requests the list of upload requests
+    AHC, after succesful authentication:
+    →    requests the list of upload requests
 
-	The server:
-	→	returns the list of the IDs of the contents requested by other
-		users to the user
+    The server:
+    →    returns the list of the IDs of the contents requested by other
+         users to the user
 
-	AHC:
-	→	if the list is not empty (here it is not), displays the upload
-		requests page
-
-
-	It looks like this:
+    AHC:
+    →    if the list is not empty (here it is not), displays the upload
+         requests page
 
 
-	<meta1>		<meta2>		<meta3>		upload ?
-	=================================================
-	value11		value12		value13		◻
-	value21		value22		value23		◻
-	THIS IS		THE ONE		HE WANTS	✓
-	value41		value42		value43		◻
+    It looks like this:
 
-							[Upload]	[Cancel]
-	
 
-	The user:
-	→	ticks the checkbox(es) of the content(s) he wants to upload now
-	→	clicks the "Upload" button
+    <meta1>        <meta2>        <meta3>        upload ?
+    =====================================================
+    value11        value12        value13        ◻
+    value21        value22        value23        ◻
+    THIS IS        THE ONE        HE WANTS       ✓
+    value41        value42        value43        ◻
 
-	AHC:
-	→	checks his local xml to find the path to the content
-	→	zips the content in a file with a random-generated name
-	→	encrypts the content
-	→	establishes an FTP connection to the server
-	→	puts the zip file on the server
-	→	closes the FTP connection
-	→	connects to the webservice of the server using the credentials
-		in his config file
-	→	sends the content's metadata along with the zip file's md5 and
-		filename
+                                  [Upload]    [Cancel]
 
-	The webservice, upon answering the request:
-	→	checks that there is a zip file with the name provided, and its
-		md5 checksum
-	→	if everything is OK, inserts the metadata into a table in the DB
-	→	sends an e-mail to the user who requested the content
 
-	AHC:
-	→	if there was no error, closes the connection to the webservice
+    The user:
+    →    ticks the checkbox(es) of the content(s) he wants to upload now
+    →    clicks the "Upload" button
+
+    AHC:
+    →    checks his local xml to find the path to the content
+    →    zips the content in a file with a random-generated name
+    →    encrypts the content
+    →    establishes an FTP connection to the server
+    →    puts the zip file on the server
+    →    closes the FTP connection
+    →    connects to the webservice of the server using the credentials
+         in his config file
+    →    sends the content's metadata along with the zip file's md5 and
+         filename
+
+    The webservice, upon answering the request:
+    →    checks that there is a zip file with the name provided, and its
+         md5 checksum
+    →    if everything is OK, inserts the metadata into a table in the DB
+    →    sends an e-mail to the user who requested the content
+
+    AHC:
+    →    if there was no error, closes the connection to the webservice
