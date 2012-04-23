@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="publish.svg"
+   inkscape:export-filename="/home/pierre/dev/AdoHeavyClient/spec/graphical_interface/sketch.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2987" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="401.3973"
+     inkscape:cy="379.86657"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1625"
+     inkscape:window-height="1030"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.92055988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2993"
+       width="906.42578"
+       height="735.48492"
+       x="118.57425"
+       y="1" />
+    <rect
+       style="fill:#666666"
+       id="rect2995"
+       width="1025"
+       height="28"
+       x="1"
+       y="1" />
+    <rect
+       style="fill:#916f6f"
+       id="rect3009"
+       width="1025"
+       height="680"
+       x="-1"
+       y="28" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="461"
+       y="21"
+       id="text2999"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3001"
+         x="461"
+         y="21"
+         style="font-size:24px">TitleBar</tspan></text>
+    <rect
+       style="fill:#88aa00"
+       id="rect3017"
+       width="1027"
+       height="32"
+       x="1"
+       y="705" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="126"
+       y="728"
+       id="text3019"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3021"
+         x="126"
+         y="728">status bar: displays &quot;Hashing file the_filename&quot;</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3203"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3205"><rect
+           id="rect3207"
+           width="1245"
+           height="584"
+           x="-50"
+           y="77" /></flowRegion><flowPara
+         id="flowPara3209" /></flowRoot>    <rect
+       style="fill:#c83737"
+       id="rect3211"
+       width="116"
+       height="269"
+       x="0"
+       y="287" />
+    <text
+       xml:space="preserve"
+       style="font-size:21.50667953px;font-style:normal;font-weight:normal;line-height:0%;letter-spacing:-6.00171471px;word-spacing:0px;writing-mode:tb-rl;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="38.980858"
+       y="481.02094"
+       id="text3213"
+       sodipodi:linespacing="0%"
+       transform="scale(1.48791,0.67208368)"><tspan
+         sodipodi:role="line"
+         id="tspan3215"
+         x="286.83395"
+         y="233.16786"> shortcuts</tspan><tspan
+         sodipodi:role="line"
+         x="286.83395"
+         y="233.16786"
+         id="tspan3217" /></text>
+    <rect
+       style="fill:#ff8080"
+       id="rect3219"
+       width="117"
+       height="87"
+       x="0"
+       y="30" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="1"
+       y="61"
+       id="text3221"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3223"
+         x="1"
+         y="61">login &amp;</tspan><tspan
+         sodipodi:role="line"
+         x="1"
+         y="86"
+         id="tspan3225">configuration</tspan></text>
+    <rect
+       style="fill:#ccff00"
+       id="rect3241"
+       width="118"
+       height="84"
+       x="-1"
+       y="116" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="12"
+       y="157"
+       id="text3243"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3245"
+         x="12"
+         y="157">requests</tspan></text>
+    <rect
+       style="fill:#916f6f"
+       id="rect3247"
+       width="123"
+       height="89"
+       x="-1"
+       y="198" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-3.693458e-09"
+       y="233"
+       id="text3249"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3251"
+         x="-3.693458e-09"
+         y="233">publishing</tspan><tspan
+         sodipodi:role="line"
+         x="-3.693458e-09"
+         y="258"
+         id="tspan3259">local folders</tspan></text>
+    <rect
+       style="fill:#ac9d93"
+       id="rect3261"
+       width="118"
+       height="84"
+       x="-1"
+       y="653" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="14"
+       y="673"
+       id="text3263"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3265"
+         x="14"
+         y="673">console</tspan><tspan
+         sodipodi:role="line"
+         x="14"
+         y="698"
+         id="tspan3267">&amp; logs</tspan></text>
+    <rect
+       style="fill:#3737c8"
+       id="rect3269"
+       width="118"
+       height="98"
+       x="-1"
+       y="555"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="20"
+       y="588"
+       id="text3271"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3273"
+         x="20"
+         y="588">activity</tspan><tspan
+         sodipodi:role="line"
+         x="20"
+         y="613"
+         id="tspan3275">queue</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-5.2763482e-10"
+       y="326"
+       id="text3277"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3279"
+         x="-5.2763482e-10"
+         y="326">Browse</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3281"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#11002b;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><flowRegion
+         id="flowRegion3283"><rect
+           id="rect3285"
+           width="97"
+           height="67"
+           x="-63"
+           y="361"
+           style="fill:#11002b" /></flowRegion><flowPara
+         id="flowPara3287">Sqved sersfsdf</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="3"
+       y="478"
+       id="text3289"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3291"
+         x="3"
+         y="478"
+         style="font-size:20px">Saved</tspan><tspan
+         sodipodi:role="line"
+         x="3"
+         y="503"
+         id="tspan3295"
+         style="font-size:20px">searches</tspan><tspan
+         sodipodi:role="line"
+         x="3"
+         y="528"
+         id="tspan3293"
+         style="font-size:20px">as shortcuts</tspan></text>
+    <rect
+       style="fill:#d7e3f4"
+       id="rect3081"
+       width="419"
+       height="262"
+       x="123"
+       y="31" />
+    <rect
+       style="fill:#d7eef4"
+       id="rect3083"
+       width="472"
+       height="264"
+       x="549"
+       y="30" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3085"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><flowRegion
+         id="flowRegion3087"><rect
+           id="rect3089"
+           width="382"
+           height="175"
+           x="143"
+           y="59" /></flowRegion><flowPara
+         id="flowPara3091"
+         style="font-size:20px">Local filesystem tree displaying only folders</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="620"
+       y="87"
+       id="text3093"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3095"
+         x="620"
+         y="87"
+         style="font-size:20px">List of published folders</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3097"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><flowRegion
+         id="flowRegion3099"><rect
+           id="rect3101"
+           width="337"
+           height="112"
+           x="191"
+           y="179" /></flowRegion><flowPara
+         id="flowPara3103"
+         style="font-size:20px">Double click on an item to add it to the published folders </flowPara><flowPara
+         style="font-size:20px"
+         id="flowPara3142">Or drag'n drop it to the left</flowPara><flowPara
+         style="font-size:20px"
+         id="flowPara3144" /></flowRoot>    <flowRoot
+       transform="translate(423.75684,-6.917405)"
+       xml:space="preserve"
+       id="flowRoot3097-7"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><flowRegion
+         id="flowRegion3099-4"><rect
+           id="rect3101-3"
+           width="324"
+           height="70"
+           x="191"
+           y="179" /></flowRegion><flowPara
+         id="flowPara3103-3"
+         style="font-size:20px">Double click on an item to remove it to the published folders</flowPara></flowRoot>    <rect
+       style="fill:#ccaaff"
+       id="rect3132"
+       width="903"
+       height="405"
+       x="120"
+       y="298" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="148"
+       y="503"
+       id="text3134"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3136"
+         x="148"
+         y="503">Tree of published files, with their status:</tspan><tspan
+         sodipodi:role="line"
+         x="148"
+         y="553"
+         id="tspan3138">- metadata, hashsum</tspan><tspan
+         sodipodi:role="line"
+         x="148"
+         y="603"
+         id="tspan3140">- hashing in progress</tspan></text>
+  </g>
+</svg>
