@@ -11,9 +11,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    ConsoleWidget.cpp
+    ConsoleWidget.cpp \
+    PublishingWidget.cpp \
+    PublishedFilesView.cpp \
+    SelectedFoldersView.cpp \
+    Log.cpp
 
 HEADERS  += \
-    ConsoleWidget.h
-
-FORMS    += MainWindow.ui
+    ConsoleWidget.h \
+    PublishingWidget.h \
+    PublishedFilesView.h \
+    SelectedFoldersView.h \
+    Log.h
