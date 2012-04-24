@@ -22,6 +22,8 @@ void ConsoleWidget::log(QString textToLog)
     QString logLine;
     logLine.append(QTime::currentTime().toString()).append(" ")
             .append(textToLog);
+//    if (logLine.endsWith("/n"))
+//        logLine.chop(1);
     m_logView->append(logLine);
 }
 

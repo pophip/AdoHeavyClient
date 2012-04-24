@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
     QObject::connect(&Log::Instance(), SIGNAL(logged(QString)),
                      console, SLOT(log(QString)));
-    Log::Instance().log("This is the first log.");
+    Log::Instance() << "This is the first log." << Log::Endl;
 
     return a.exec();
 }

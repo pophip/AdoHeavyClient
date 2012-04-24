@@ -22,10 +22,10 @@ PublishedFilesView::PublishedFilesView(QWidget *parent) :
 void PublishedFilesView::publishFolderContent(QString fullPath)
 {
     QDir folder(fullPath);
-    Log::Instance().log(QString("Exploring").append(folder.absolutePath()));
+    Log::Instance() << "Exploring" << folder.absolutePath() << Log::Endl;
     if(!folder.exists())
     {
-        Log::Instance().log(folder.dirName().append(" is not a directory."));
+        Log::Instance() << folder.dirName() << " is not a directory." << Log::Endl;
         exit(1);
     }
 
@@ -49,7 +49,7 @@ void PublishedFilesView::listFiles(QDir folder)
 
 void PublishedFilesView::addFile(QFileInfo file)
 {
-    Log::Instance().log(QString("Adding file ").append(file.absoluteFilePath()));
+    Log::Instance() << "Adding file " << file.absoluteFilePath() << Log::Endl;
     QList<QStandardItem *> row;
     row << new QStandardItem(file.fileName())
         << new QStandardItem("o_O")
