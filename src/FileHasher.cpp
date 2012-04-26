@@ -1,10 +1,12 @@
 #include "FileHasher.h"
 
+#include "Log.h"
 #include "FileChunk.h"
 #include "ChunkByChunkFileReader.h"
 
 HashSum FileHasher::hash(const char fileName[])
 {
+    Log::get() << "\n\nHashing " << fileName << Log::Endl;
     ChunkByChunkFileReader reader(fileName);
     return sha1(reader);
 }

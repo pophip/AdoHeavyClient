@@ -18,7 +18,7 @@ ChunkByChunkFileReaderIterator::ChunkByChunkFileReaderIterator(
 
 bool ChunkByChunkFileReaderIterator::operator !=(const ChunkByChunkFileReaderIterator & other) const
 {
-    return m_reader == other.m_reader && m_sequenceNo == other.m_sequenceNo;
+    return m_reader != other.m_reader || m_sequenceNo != other.m_sequenceNo;
 }
 
 FileChunk ChunkByChunkFileReaderIterator::operator *()

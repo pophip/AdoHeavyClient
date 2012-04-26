@@ -22,7 +22,8 @@ SOURCES += main.cpp \
     ChunkByChunkFileReader.cpp \
     ChunkByChunkFileReaderIterator.cpp \
     FileChunk.cpp \
-    test/ChunkByChunkFileReaderTest.cpp
+    test/ChunkByChunkFileReaderTest.cpp \
+    test/FileHasherTest.cpp
 
 HEADERS  += \
     ConsoleWidget.h \
@@ -35,6 +36,7 @@ HEADERS  += \
     ChunkByChunkFileReader.h \
     ChunkByChunkFileReaderIterator.h \
     FileChunk.h \
-    test/ChunkByChunkFileReaderTest.h
+    test/ChunkByChunkFileReaderTest.h \
+    test/FileHasherTest.h
 
 LIBS += -lssl

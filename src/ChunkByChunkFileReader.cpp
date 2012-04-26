@@ -3,6 +3,7 @@
 #include <iostream>
 #include <cmath>
 
+#include "Log.h"
 #include "FileChunk.h"
 #include "ChunkByChunkFileReaderIterator.h"
 
@@ -10,7 +11,8 @@ ChunkByChunkFileReader::ChunkByChunkFileReader(const char fileName[])
     : m_lastChunk(0)
     , m_nextChunkToRead(0)
 {
-    m_inputFile.open(fileName, std::ios::in | std::ios::binary);
+    m_inputFile.open(fileName, std::ios::in);
+    m_inputFile.exceptions ( std::ifstream::failbit | std::ifstream::badbit );
     if ( !m_inputFile.is_open() )
     {
         std::cerr << "Could not open file [" << fileName << "]" << std::endl;
@@ -20,9 +22,15 @@ ChunkByChunkFileReader::ChunkByChunkFileReader(const char fileName[])
     m_inputFile.seekg(0, std::ios::end);
     m_fileSize = m_inputFile.tellg();
     m_lastChunk = numberOfChunks() - 1;
+    m_inputFile.seekg(std::ios::beg);
 
     m_begin = ChunkByChunkFileReaderIterator(this, 0);
     m_end = ChunkByChunkFileReaderIterator(this, m_lastChunk + 1);
+
+    Log::get() << "Constructing reader for file [" << fileName << "]" << Log::Endl;
+    Log::get() << "File size: " << m_fileSize << Log::Endl;
+    Log::get() << "Last chunk: " << m_lastChunk << Log::Endl;
+    Log::get() << "Chunk ByteSize: " << ChunkByteSize << Log::Endl;
 }
 
 unsigned int ChunkByChunkFileReader::numberOfChunks()
@@ -37,6 +45,7 @@ unsigned int ChunkByChunkFileReader::numberOfChunks()
 FileChunk ChunkByChunkFileReader::readNextChunk()
 {
     FileChunk chunk;
+    chunk.init();
     if (m_nextChunkToRead == m_lastChunk)
     {
         unsigned int remaining = m_fileSize - m_lastChunk * ChunkByteSize;
@@ -49,13 +58,17 @@ FileChunk ChunkByChunkFileReader::readNextChunk()
         chunk.setSize(ChunkByteSize);
     }
     ++m_nextChunkToRead;
+
+    Log::get() << "[" << chunk.data() << "] " << chunk.size() << " bytes read" << Log::Endl;
+
     return chunk;
 }
 
 FileChunk ChunkByChunkFileReader::chunkAt(unsigned int chunkNo)
 {
+    Log::get() << "Reading chunk #" << chunkNo << Log::Endl;
     FileChunk returnValue;
-    if (chunkNo < m_lastChunk)
+    if (chunkNo <= m_lastChunk)
     {
         if (chunkNo == m_nextChunkToRead)
         {

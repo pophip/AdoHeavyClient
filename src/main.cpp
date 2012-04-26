@@ -6,6 +6,10 @@
 #include "ConsoleWidget.h"
 #include "PublishingWidget.h"
 
+// Test cases
+#include "test/ChunkByChunkFileReaderTest.h"
+#include "test/FileHasherTest.h"
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -19,9 +23,13 @@ int main(int argc, char *argv[])
     container.addTab(console, "Logs");
     container.show();
 
-    QObject::connect(&Log::Instance(), SIGNAL(logged(QString)),
+    QObject::connect(&Log::get(), SIGNAL(logged(QString)),
                      console, SLOT(log(QString)));
-    Log::Instance() << "This is the first log." << Log::Endl;
+    Log::get() << "This is the first log." << Log::Endl;
+
+    // Test cases
+    ChunkByChunkFileReaderTest().run();
+    FileHasherTest().run();
 
     return a.exec();
 }

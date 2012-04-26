@@ -1,5 +1,7 @@
 #include "HashSum.h"
 
+#include "Log.h"
+
 #include <iomanip>
 
 using namespace std;
@@ -12,6 +14,7 @@ HashSum::HashSum()
 
 void HashSum::print(std::ostream &output) const
 {
+    Log::get() << "HashSum::print()" << Log::Endl;
     output << setbase(16) << setfill('0');
     for(int i = 0; i < m_messageDigestlength; i++)
     {
@@ -28,5 +31,7 @@ bool HashSum::operator ==(const HashSum & other) const
 
 std::ostream & operator<<(std::ostream & oStreamOut, const HashSum & iHashSum)
 {
+    Log::get() << "Printing HashSum:" << Log::Endl;
     iHashSum.print(oStreamOut);
+    return oStreamOut;
 }

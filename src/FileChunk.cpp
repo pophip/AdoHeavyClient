@@ -8,10 +8,20 @@ FileChunk::FileChunk()
 {
 }
 
+void FileChunk::init()
+{
+    if (m_data.get() == nullptr)
+    {
+        m_data.reset(new  std::array<char, ChunkBufferSize>);
+        m_data->fill('\0');
+    }
+}
+
 FileChunk::FileChunk(const FileChunk &other)
     : m_realSize(other.m_realSize)
-    , m_data(new std::array<char, ChunkByteSize>)
+    , m_data(new std::array<char, ChunkBufferSize>)
 {
+    m_data->fill('\0');
     std::copy(other.m_data->begin()
               , other.m_data->end()
               , other.m_data->begin());
