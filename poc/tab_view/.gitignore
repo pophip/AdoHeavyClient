@@ -1,2 +1,5 @@
 *.o
 *.pro.user
+moc_*
+tab_view
+.gitignore
