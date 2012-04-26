@@ -7,7 +7,7 @@ Log::Log()
     m_currentLine.setString(new QString);
 }
 
-Log& Log::Instance()
+Log& Log::get()
 {
     static Log theLog;
     return theLog;

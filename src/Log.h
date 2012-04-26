@@ -17,7 +17,7 @@ private:
     friend Log & operator<<(Log& log, const Log::endl_t&);
 
 public:
-    static Log & Instance();
+    static Log & get();
 
 signals:
     void logged(QString textToLog);
